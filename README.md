@@ -1,9 +1,11 @@
 # lp-workflow-cli
 一个web工作流的脚手架
+=
 
 
 项目根目录需要添加pages.config.js 为打包的一些相关信息，模板如，data是html中传递的 数据上下文,不需要的话可以不传递<br/>
-` `` javascript
+==
+` ``
 module.exports = {
   build: {
     src: 'src',
@@ -59,9 +61,12 @@ module.exports = {
     date: new Date()
   }
 }
-` `` 
+` ``
+
 项目根目录需要添加deployConfig.js是部署配置 模板如<br/>
-` `` javascript
+
+==
+` ``
 const remotePath = ''
 module.exports = {
   ssh: { // 正式
@@ -76,7 +81,8 @@ module.exports = {
     `rm -rf ${remotePath}`
   ]
 }
-` `` 
+` ``
+
 脚手架提供以下命令 ：<br/>
 <div>lp-workflow-cli build   打包任务</div>     
 <div>lp-workflow-cli start   开发任务</div>
