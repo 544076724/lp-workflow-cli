@@ -64,7 +64,7 @@ module.exports = {
 }
 ```
 
-项目根目录需要添加deployConfig.js是部署配置, 模板如<br/>
+项目根目录需要添加deployConfig.js是部署配置rm -rf慎用, 模板如<br/>
 ==
 
 ```
