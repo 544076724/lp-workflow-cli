@@ -10,8 +10,8 @@
     "lib",
     "bin"
   ],
-  "scripts": {
-    "lint": "standard --fix"
+  "directories": {
+    "lib": "lib"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",
