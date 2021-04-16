@@ -2,7 +2,7 @@
 一个web工作流的脚手架
 =
 
-ceshi
+ces
 
 
 ##项目根目录需要添加pages.config.js 为打包的一些相关信息，模板如，data是html中传递的 数据上下文,不需要的话可以不传递<br/>
